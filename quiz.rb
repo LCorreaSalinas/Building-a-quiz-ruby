@@ -20,6 +20,7 @@ if first == "Jeff Bezos"
 else
     puts "Wrong Answer, Jeff Bezos" 
 end
+
 puts "What is the name of the owner of the Tesla Company? "
 second = gets.chomp()
 if second == "Elon Musk"
@@ -28,6 +29,7 @@ if second == "Elon Musk"
 else
     puts "Wrong Answer, Elon Musk"
 end
+
 puts "What is the most easy programming language? "
 third = gets.chomp()
 if third == "Python"
@@ -36,6 +38,8 @@ if third == "Python"
 else 
     puts "Wrong Answer, Python"
 end
+
+
 puts "What is the name of the owner of facebook? "
 fourth = gets.chomp()
 if fourth == "Mark Zuckberg"
@@ -44,6 +48,7 @@ if fourth == "Mark Zuckberg"
 else
     puts "Wrong Answer, Mark Zuckberg"
 end
+
 puts "What is the name of the CEO of Google? "
 fifth = gets.chomp()
 if fifth == "Sundar Pichae"
@@ -52,6 +57,7 @@ if fifth == "Sundar Pichae"
 else 
     puts "Wrong Answer, Sundar Pichae"
 end
+
 puts "Who is the owner of Microsoft"
 sixth = gets.chomp()
 if sixth == "Bill Gates"
@@ -60,6 +66,7 @@ if sixth == "Bill Gates"
 else 
     puts "Wrong Answer, Bill Gates"
 end
+
 puts "Who is the Owner of Oracle"
 seventh = gets.chomp()
 if seventh == "Larry Ellison"
@@ -68,6 +75,7 @@ if seventh == "Larry Ellison"
 else 
     puts "Wrong Answer, Larry Ellison"
 end
+
 puts "Who is the CEO of Berkshire Hathaway inc."
 eighth = gets.chomp()
 if eighth == "Warren Buffett"
@@ -76,6 +84,7 @@ if eighth == "Warren Buffett"
 else 
     puts "Wrong Answer, Warren Buffett"
 end
+
 puts "Who is Mexico's Richest Person alive"
 ninth = gets.chomp()
 if ninth == "Carlos Slim"
@@ -84,6 +93,7 @@ if ninth == "Carlos Slim"
 else 
     puts "Wrong Answer, Carlos Slim"
 end
+
 puts "Who is the CEO of Dell Technologies"
 tenth = gets.chomp()
 if tenth == "Michael Dell"
@@ -92,6 +102,7 @@ if tenth == "Michael Dell"
 else 
     puts "Wrong Answer, Michael Dell"
 end
+
 puts "Who is the Chairman of Adani Group"
 eleventh = gets.chomp()
 if eleventh == "Gautam Adani"
@@ -100,6 +111,8 @@ if eleventh == "Gautam Adani"
 else 
     puts "Wrong Answer, Gautam Adani"
 end
+
+
 puts "Who is Jeff Bezo ex Billionaire"
 twelve = gets.chomp()
 if twelve == "Mackenze Scott"
@@ -108,6 +121,7 @@ if twelve == "Mackenze Scott"
 else 
     puts "Wrong Answer, Mackenzie Scott"
 end
+
 puts "Who is the Founder of Theranos"
 thirteen = gets.chomp()
 if thirteen == "Elizabeth Holmes"
@@ -116,6 +130,7 @@ if thirteen == "Elizabeth Holmes"
 else 
     puts "Wrong Answer, Elizabeth Holmes"
 end
+
 puts "Who is the Owner of Cosmetics Line Fenty Beauty"
 fourteen = gets.chomp()
 if fourteen == "Rihanna"
@@ -124,6 +139,7 @@ if fourteen == "Rihanna"
 else 
     puts "Wrong Answer, Rihanna"
 end
+
 puts "Who is the Women cofound and Ceo of Canva"
 fifteen = gets.chomp()
 if fifteen == "Melanie Perkins"
@@ -133,8 +149,88 @@ else
     puts "Wrong Answer, Melanie Perkins"
 end
 
+puts "Who is the 46th President of the U.S"
+sixteenth = gets.chomp()
+if sixteenth == "Joe Biden"
+    puts "Correct Answer"
+    score += 1
+else 
+    puts "Wrong Answer, Joe Bide"
+end
+
+puts "True or False, Wikipedia is written only by qualified professionals"
+seventeenth = gets.chomp()
+if seventeenth == "False"
+    puts "Correct Answer"
+    score += 1 
+else
+    puts "Wrong Answer, False"
+end
+
+
+puts "When was the US flag last modified?"
+eighteenth = gets.chomp()
+if eighteenth == "1777"
+    puts "Correct Answer"
+else 
+    puts "Wrong Answer, 1777"
+end
+
+puts "The Largest Ocean in the World is"
+nineteenth = gets.chomp()
+if nineteenth == "Pacific Ocean"
+    puts "Correct Answer"
+else
+    puts "Wrong Answer, Pacific Ocean"
+end
+
+puts "What is the third-longest river in Africa?"
+twenty = gets.chomp()
+if twenty == "Niger River"
+    puts "Correct Answer"
+else 
+    puts "Wrong Answer, Niger River"
+end
+
+puts "The first man to walk on the moon"
+twentyone = gets.chomp()
+if twentyone == "Neil Armstrong"
+    puts "correct Answer"
+else
+    puts "Wrong Answer, Neil Armstrong"
+end
+
+
+puts "What was the first animal on the moon?"
+twentytwo = gets.chomp()
+if twentytwo == "Dog"
+    puts "Correct Answer"
+else
+    puts "Wrong Answer, Dog"
+end
+
+puts "Tallest animal in the world"
+twentythree = gets.chomp()
+if twentythree == "Giraffe"
+    puts "Correct Answer"
+else
+    puts "Wrong Answer, Giraffe"
+end
+
+puts "True or False: Is Email older than WWW"
+twentyfour = gets.chomp()
+if twentyfour == "True"
+    puts "Correct Answer"
+else
+    puts "Wrong Answer, True"
+end
+
+
+
 
 
 
 print ("Your total score is " + score.to_s)
+
+
 
